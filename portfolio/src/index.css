@@ -10,9 +10,6 @@ body{
     box-shadow: #6b6b6b;
 }
 
-section{
-  padding-bottom: 50px;
-}
 @media (max-width: 767px) {
   section{
     padding-bottom: 10px;
@@ -194,10 +191,6 @@ section{
     top: 0;
     left: -0.5rem;
 
-  }
-  
-  .sticky-project{
-    position: sticky !important;
   }
 
   .swiper-pagination .swiper-pagination-bullet {

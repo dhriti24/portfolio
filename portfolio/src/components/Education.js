@@ -7,7 +7,7 @@ import { BiSolidCalendar } from "react-icons/bi";
 
 const Education = () => {
     return (
-        <section id="education" className="education bg-primary">
+        <section className="education bg-primary pt-20" id="education">
             <div className="container mx-auto">
                 <div className="gap-x-40 gap-y-40 lg:p-5">
                     <div className="flex flex-col lg:flex-row justify-center items-center">

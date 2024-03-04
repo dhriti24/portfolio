@@ -9,7 +9,6 @@ import {
     Navigation,
     Project,
 } from "./components";
-
 import Ringloader from "react-spinners/RingLoader";
 import { useState, useEffect } from "react";
 

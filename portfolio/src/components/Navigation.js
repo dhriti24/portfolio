@@ -21,7 +21,7 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
-                        offset={-200}
+                        duration={500}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <BiHomeAlt size={25} />
@@ -32,6 +32,7 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        duration={500}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <BiUser size={25} />
@@ -42,6 +43,7 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        duration={500}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <FiSettings size={25} />
@@ -52,6 +54,7 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        duration={500}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <LiaLaptopCodeSolid size={35} />
@@ -62,6 +65,7 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        duration={500}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <FaUserGraduate size={25} />
@@ -71,6 +75,8 @@ const Navigation = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        duration={500}
+                        offset={100}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <BsChatSquare size={25} />

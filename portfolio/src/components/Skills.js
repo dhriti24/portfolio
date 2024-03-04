@@ -34,7 +34,7 @@ import {
 const Skills = () => {
     return (
         <section
-            className="section min-h-fit top-0 pt-5 mb-0 pb-10 bg-primary"
+            className="section min-h-fit top-0 pt-20 mb-0 pb-10 bg-primary"
             id="skills"
         >
             <div className="container mx-auto align-middle">

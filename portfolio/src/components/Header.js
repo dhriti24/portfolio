@@ -13,7 +13,10 @@ const Header = () => {
         document.body.removeChild(link);
     };
     return (
-        <header className="bg-primary p-4 flex md:justify-between md:items-center">
+        <header
+            className="bg-primary p-4 flex justify-between md:items-center "
+            id="header"
+        >
             <div className="flex items-center cursor-pointer">
                 <Link to="home" activeClass="active">
                     <Image

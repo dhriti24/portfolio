@@ -13,21 +13,21 @@ const About = () => {
     });
     return (
         <section
-            className="min-h-[80vh] lg:min-h-[85vh] flex sm:justify-center bg-primary"
-            id="about"
+            className="min-h-[80vh] pt-10 lg:min-h-[85vh] flex sm:justify-center bg-primary"
             ref={ref}
+            id="about"
         >
             <div className="container mx-[10vw] md:mx-auto md:flex md:justify-center">
                 <div
-                    className="flex flex-col items-center align-middle sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
-        lg:align-middle lg:gap-x-[100px] overflow-hidden "
+                    className="flex flex-col items-center justify-center align-middle sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
+        lg:align-middle lg:gap-x-[100px] overflow-hidden"
                 >
                     <motion.div
                         variants={fadeIn("right", 0.3)}
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
-                        className="sm:flex-1 sm:bg-about sm:bg-contain sm:bg-no-repeat md:h-[90vh] md:w-[40vw] sm:bg-center sm:visible w-[50vw]"
+                        className="flex items-center justify-center sm:flex-1 sm:bg-about sm:bg-contain sm:bg-no-repeat md:h-[90vh] md:w-[40vw] sm:bg-center sm:visible w-[50vw]"
                     >
                         <Image src={assets.Avatar} alt="avatar" />
                     </motion.div>
@@ -43,20 +43,20 @@ const About = () => {
                         </h2>
 
                         <p className="text-primary font-light xl:text-[2vh] xl:leading-9 xl:w-[700px]">
-                            Having completed my
+                            Having completed my{" "}
                             <span className="text-tertiary font-semibold">
                                 Master's in Computer Science at Stevens
                                 Institute of Technology.
-                            </span>
-                            Proficient in
+                            </span>{" "}
+                            Proficient in{" "}
                             <span className="text-tertiary font-semibold">
                                 ReactJS, PHP, and Python,
-                            </span>
+                            </span>{" "}
                             I bring a professional yet friendly approach to
-                            coding. Beyond tech, I find inspiration in
+                            coding. Beyond tech, I find inspiration in{" "}
                             <span className="text-tertiary font-semibold">
                                 art, dance, craft, and music,
-                            </span>
+                            </span>{" "}
                             adding a creative touch to my work.
                             <br />
                             With a passion for problem-solving and a commitment

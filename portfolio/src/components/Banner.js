@@ -26,24 +26,21 @@ const Banner = () => {
             className="min-h-[80vh] lg:min-h-[85vh] flex sm:justify-center bg-primary"
             id="home"
         >
-            <div className="mx-[10vw] md:mx-auto md:mt-[10vh]">
-                <div
-                    className="flex flex-col sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
-        lg:align-middle lg:gap-x-[100px] overflow-hidden "
-                >
+            <div className="container mx-[5vw] md:mx-auto md:flex md:justify-center">
+                <div className="flex flex-col justify-between sm:pt-10 md:pt-0 gap-y-6 lg:flex-row lg:items-center lg:align-middle overflow-hidden">
                     <motion.div
                         variants={fadeIn("up", 0.3)}
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="flex-1 text-center align-middle font-secondary xl:ml-[5vw] lg:mr-[5vw] lg:text-left sm:w-full text-2xl"
+                        className="flex-1 text-center lg:text-left sm:w-full"
                     >
                         <p className="text-secondary mb-3 lg:mb-8">
-                            <span className="text-[2rem]">
-                                Hello. Hola. Bonjour.
+                            <span className="text-md md:text-2xl lg:text-3xl">
+                                Hello. નમસ્તે. Bonjour.
                             </span>
                             <span
-                                className="wave ml-3 text-4xl"
+                                className="wave ml-3 text-lg md:text-3xl lg:text-4xl"
                                 role="img"
                                 aria-labelledby="wave"
                             >
@@ -56,7 +53,7 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
-                            className="text-[6vh] leading-[0.8] lg:text-[6vh] font-semibold pb-2"
+                            className="text-[5vh] leading-[0.8] md:text-[7vh] font-semibold pb-2"
                         >
                             <span className="text-tertiary">I'M</span> DHRITI{" "}
                             <span>SHAH</span>
@@ -83,7 +80,7 @@ const Banner = () => {
                                     2000,
                                 ]}
                                 speed={50}
-                                className="text-secondary pt-2 font-extrabold text-2xl"
+                                className="text-secondary pt-2 font-extrabold text-lg md:text-2xl"
                                 repeat={Infinity}
                             />
                         </motion.div>
@@ -109,7 +106,7 @@ const Banner = () => {
                                     smooth={true}
                                     duration={1000}
                                 >
-                                    <button className="btn btn-sm md:btn-lg xl:btn-lg hover:btn-hover">
+                                    <button className="btn btn-sm md:btn-md xl:btn-lg hover:btn-hover">
                                         My Projects
                                     </button>
                                 </Link>
@@ -117,7 +114,7 @@ const Banner = () => {
                             <button onClick={handleDownload}>
                                 <div
                                     className="px-4 py-3 border-b-4 border-tertiary text-tertiary hover:text-white hover:bg-primary hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#2ADBCD]
-                  transition-all duration-200 w-[150px] xl:w-[200px] flex justify-center flex-row items-center text-base xl:text-xl"
+                  transition-all duration-200 w-[150px] xl:w-[200px] flex justify-center flex-row items-center text-base xl:text-lg"
                                 >
                                     See my Resume
                                     <HiArrowNarrowDown className="ml-3" />

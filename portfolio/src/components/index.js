@@ -6,3 +6,4 @@ export { default as Skills } from "./Skills.js";
 export { default as Education } from "./Education.js";
 export { default as Navigation } from "./Navigation.js";
 export { default as Project } from "./Project.js";
+export { default as Contact } from "./Contact.js";

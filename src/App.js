@@ -6,7 +6,6 @@ import {
     About,
     Skills,
     Education,
-    Navigation,
     Project,
     BackToTop,
     Contact,

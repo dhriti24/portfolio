@@ -12,7 +12,7 @@ import Project4 from "./images/Project4.svg";
 import Project5 from "./images/Project5.svg";
 import Project6 from "./images/Project6.svg";
 
-export default {
+const images = {
     Avatar,
     Logo,
     Myimage,
@@ -27,3 +27,5 @@ export default {
     Project5,
     Project6,
 };
+
+export default images;

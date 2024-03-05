@@ -22,6 +22,20 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        if (!formData.user_name || !formData.user_email || !formData.message) {
+            toast.error("Please fill in all the required fields. ✍🏻", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+            return;
+        }
         const serviceId = `${process.env.REACT_APP_SERVICE_ID}`;
         const templateId = `${process.env.REACT_APP_TEMPLATE_ID}`;
         const publicKey = `${process.env.REACT_APP_PUBLIC_KEY}`;
@@ -62,7 +76,7 @@ const Contact = () => {
                 (error) => {
                     console.log("FAILED...", error.text);
                     toast.error(
-                        `Oops! Something went wrong. Please try again.`,
+                        `Oops! Something went wrong. Please try again.☹️`,
                         {
                             position: "top-center",
                             autoClose: 5000,
@@ -77,19 +91,6 @@ const Contact = () => {
                 }
             );
     };
-    // return (
-    // <section id="contact" className="bg-white">
-    //     <form ref={form} onSubmit={sendEmail}>
-    //         <label>Name</label>
-    //         <input type="text" name="user_name" />
-    //         <label>Email</label>
-    //         <input type="email" name="user_email" />
-    //         <label>Message</label>
-    //         <textarea name="message" />
-    //         <input type="submit" value="Send" />
-    //     </form>
-    // </section>
-
     return (
         <section className="py-10 pt-20 lg:section bg-primary" id="contact">
             <div className="container mx-auto">

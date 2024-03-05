@@ -77,7 +77,7 @@ const About = () => {
                                         <Countup
                                             start={0}
                                             end={12}
-                                            duration={3}
+                                            duration={5}
                                         />
                                     ) : (
                                         12
@@ -95,7 +95,7 @@ const About = () => {
                                         <Countup
                                             start={0}
                                             end={6}
-                                            duration={3}
+                                            duration={5}
                                         />
                                     ) : (
                                         6
@@ -113,7 +113,7 @@ const About = () => {
                                         <Countup
                                             start={0}
                                             end={15}
-                                            duration={3}
+                                            duration={5}
                                         />
                                     ) : (
                                         15

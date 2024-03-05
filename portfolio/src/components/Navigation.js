@@ -76,7 +76,6 @@ const Navigation = () => {
                         smooth={true}
                         spy={true}
                         duration={500}
-                        offset={100}
                         className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center hover:text-secondary hover:scale-150 transition-all duration-300"
                     >
                         <BsChatSquare size={25} />

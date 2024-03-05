@@ -7,12 +7,6 @@ import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import assets from "../assets";
-// import Project1 from "../assets/images/Project1.png";
-// import Project2 from "../assets/images/Project2.png";
-// import Project3 from "../assets/images/Project3.png";
-// import Project4 from "../assets/images/Project4.png";
-// import Project5 from "../assets/images/Project5.png";
-// import Project6 from "../assets/images/Project6.png";
 
 const Project = () => {
     const projects = [
@@ -50,7 +44,8 @@ const Project = () => {
         {
             img: assets.Project4,
             name: "Job Portal",
-            github_link: "https://github.com/dhriti24/Job-Portal-Laravel",
+            github_link:
+                "https://github.com/dhriti24/Job-Portal-Laravel/tree/main/job_portal",
             categories: ["PHP", "Laravel", "Apache", "MySQL"],
         },
         {
@@ -68,7 +63,7 @@ const Project = () => {
         },
     ];
     return (
-        <section className="text-primary bg-primary pt-20" id="projects">
+        <section className="text-primary bg-primary pt-[7rem]" id="projects">
             <div className="md:container mx-auto px-4">
                 <motion.div
                     variants={fadeIn("up", 0.3)}
@@ -108,15 +103,15 @@ const Project = () => {
                     modules={[EffectCoverflow, Pagination, Autoplay]}
                     autoplay={{ delay: 2500, pauseOnMouseEnter: true }}
                     loop={true}
-                    className="mySwiper"
+                    className="mySwiper w-[90%] mx-auto"
                 >
                     {projects.map((project_info, i) => (
                         <SwiperSlide key={i}>
-                            <div className="h-contain p-4 bg-black/20 backdrop-blur-2xl rounded-xl">
+                            <div className="h-contain p-4 bg-[#e6e6e67a] rounded-xl">
                                 <img
                                     src={project_info.img}
                                     alt=""
-                                    className="w-auto h-80 rounded-lg"
+                                    className="w-auto h-80 rounded-lg "
                                 />
                                 <h3 className="text-lg md:text-xl my-3">
                                     {project_info.name}
@@ -134,24 +129,27 @@ const Project = () => {
                                     )}
                                 </div>
                                 {project_info.github_link && (
-                                    <button
+                                    <a
                                         href={project_info.github_link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="btn btn-sm md:btn-md rounded-md mt-3"
                                     >
-                                        View GitHub
-                                    </button>
+                                        <button className="btn btn-sm md:btn-md rounded-md mt-3">
+                                            View GitHub
+                                        </button>
+                                    </a>
                                 )}
                                 {project_info.live_link && (
-                                    <button
+                                    <a
                                         href={project_info.live_link}
                                         target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="btn btn-sm md:btn-md rounded-md mt-3"
+                                        rel="noopener
+                                        noreferrer"
                                     >
-                                        View Live
-                                    </button>
+                                        <button className="btn btn-sm md:btn-md rounded-md mt-3">
+                                            View Live
+                                        </button>
+                                    </a>
                                 )}
                             </div>
                         </SwiperSlide>

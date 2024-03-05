@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 import { HiArrowNarrowDown } from "react-icons/hi";
+import { SiGmail } from "react-icons/si";
 import { Image } from "react-bootstrap";
 import assets from "../assets";
 
@@ -122,10 +123,10 @@ const Banner = () => {
                             </button>
                         </motion.div>
                         <div className="xl:space-y-5">
-                            <a href="/" className="text-gradient btn-link">
+                            <a href="/" className="text-lg btn-link">
                                 FIND ME ON
                             </a>
-                            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+                            <div className="flex text-[2.2rem] gap-x-6 max-w-max mx-auto lg:mx-0">
                                 <a
                                     href="https://github.com/dhriti24"
                                     target="_blank"
@@ -139,6 +140,13 @@ const Banner = () => {
                                     rel="noreferrer"
                                 >
                                     <FaLinkedin />
+                                </a>
+                                <a
+                                    href="mailto:shah.dhriti@gmail.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <SiGmail />
                                 </a>
                             </div>
                         </div>

@@ -7,3 +7,5 @@ export { default as Education } from "./Education.js";
 export { default as Navigation } from "./Navigation.js";
 export { default as Project } from "./Project.js";
 export { default as Contact } from "./Contact.js";
+export { default as BackToTop } from "./BackToTop.js";
+export { default as VerticalNav } from "./VerticalNav.js";

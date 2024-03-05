@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
     let date = new Date();
@@ -36,6 +37,16 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                             >
                                 <FaLinkedinIn />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="mailto:shah.dhriti@gmail.com"
+                                style={{ color: "black" }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <SiGmail />
                             </a>
                         </li>
                     </ul>

@@ -14,7 +14,7 @@ const Header = () => {
     };
     return (
         <header
-            className="bg-primary p-4 flex justify-between md:items-center "
+            className="bg-primary px-4 flex justify-between md:items-center "
             id="header"
         >
             <div className="flex items-center cursor-pointer">

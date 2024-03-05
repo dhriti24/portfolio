@@ -179,7 +179,12 @@ const Education = () => {
                         </div>
                     </div>
                     <div className="flex align-middle text-center justify-center">
-                        <a href="" target="_blank" rel="noreferrer">
+                        {/* Add Certificate Link */}
+                        <a
+                            href="https://www.linkedin.com/in/dhriti-shah-9ab0a41ab/details/certifications/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <button className="btn btn-sm md:btn-lg xl:btn-lg hover:btn-hover">
                                 View Certificates
                             </button>

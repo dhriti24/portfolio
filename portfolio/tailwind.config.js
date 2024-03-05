@@ -18,9 +18,9 @@ module.exports = {
             },
         },
         fontFamily: {
-            primary: "Orbitron",
-            secondary: "Rajdhani",
-            tertiary: "Aldrich",
+            primary: "Helvetica",
+            secondary: "Arial",
+            tertiary: "sans-serif",
         },
         extend: {
             backgroundColor: {

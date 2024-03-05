@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dhriti24/portfolio/static/css/main.8d6d02d4.css",
+    "main.js": "/dhriti24/portfolio/static/js/main.72d32553.js",
+    "static/js/453.1407b060.chunk.js": "/dhriti24/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Myimage.png": "/dhriti24/portfolio/static/media/Myimage.771147e6febd49a99096.png",
+    "static/media/Profile.png": "/dhriti24/portfolio/static/media/Profile.d97278f5e4576cd9a6c6.png",
+    "static/media/Avatar.png": "/dhriti24/portfolio/static/media/Avatar.7b1ee91675811d830706.png",
+    "static/media/blob.gif": "/dhriti24/portfolio/static/media/blob.e2976bd653857c91cd10.gif",
+    "static/media/Dhriti_Shah_Resume.pdf": "/dhriti24/portfolio/static/media/Dhriti_Shah_Resume.86f8136002c70d2a9ef2.pdf",
+    "static/media/Logo.png": "/dhriti24/portfolio/static/media/Logo.63eadc6d8077d21fdd23.png",
+    "static/media/Project6.svg": "/dhriti24/portfolio/static/media/Project6.959d831769e5b443aa1d531c240b1e6a.svg",
+    "static/media/Project5.svg": "/dhriti24/portfolio/static/media/Project5.e16bd006ce3796fa8ac84a1a7d587d75.svg",
+    "static/media/Project4.svg": "/dhriti24/portfolio/static/media/Project4.52b525486b2e89432e4579d92d874f7f.svg",
+    "static/media/Project1.svg": "/dhriti24/portfolio/static/media/Project1.fbb3fe9b8299dfc5a28c20d94f7de4cf.svg",
+    "static/media/Project3.svg": "/dhriti24/portfolio/static/media/Project3.2e445ac238d0b37a658ad6c84cf50f2a.svg",
+    "static/media/Project2.svg": "/dhriti24/portfolio/static/media/Project2.08fc401754afbb5a9ca9a107f8e39a1b.svg",
+    "index.html": "/dhriti24/portfolio/index.html",
+    "static/media/blob.svg": "/dhriti24/portfolio/static/media/blob.4a8aa5b716d05855534c3cb3adc4fb3b.svg",
+    "main.8d6d02d4.css.map": "/dhriti24/portfolio/static/css/main.8d6d02d4.css.map",
+    "main.72d32553.js.map": "/dhriti24/portfolio/static/js/main.72d32553.js.map",
+    "453.1407b060.chunk.js.map": "/dhriti24/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6d02d4.css",
+    "static/js/main.72d32553.js"
+  ]
+}

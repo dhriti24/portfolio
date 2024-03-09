@@ -12,11 +12,12 @@ import { HiArrowNarrowDown } from "react-icons/hi";
 import { SiGmail } from "react-icons/si";
 import { Image } from "react-bootstrap";
 import assets from "../assets";
+import Resume from "../assets/files/Dhriti_Kalpesh_Shah_Resume.pdf";
 
 const Banner = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = assets.Resume;
+        link.href = Resume;
         link.download = "Dhriti_Kalpesh_Shah_Resume.pdf";
         document.body.appendChild(link);
         link.click();

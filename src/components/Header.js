@@ -2,11 +2,12 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import { Link } from "react-scroll";
 import assets from "../assets";
+import Resume from "../assets/files/Dhriti_Kalpesh_Shah_Resume.pdf";
 
 const Header = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = assets.Resume;
+        link.href = Resume;
         link.download = "Dhriti_Kalpesh_Shah_Resume.pdf";
         document.body.appendChild(link);
         link.click();

@@ -29,7 +29,7 @@ const About = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         className="flex items-center justify-center sm:flex-1 sm:bg-about sm:bg-contain sm:bg-no-repeat md:h-[90vh] md:w-[40vw] sm:bg-center sm:visible w-[50vw]"
                     >
-                        <Image src={assets.Avatar} alt="avatar" />
+                        <Image src={assets.Dhriti} alt="avatar" />
                     </motion.div>
                     <motion.div
                         variants={fadeIn("left", 0.3)}
@@ -42,7 +42,7 @@ const About = () => {
                             Meet The Developer
                         </h2>
 
-                        <p className="text-primary font-light xl:text-[2vh] xl:leading-9 xl:w-[700px]">
+                        <p className="text-primary font-light xl:text-[2vh] xl:leading-9 xl:w-[700px] text-justify">
                             Having completed my{" "}
                             <span className="text-tertiary font-semibold">
                                 Master's in Computer Science at Stevens

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Tooltip } from "react-tooltip";
 import { fadeIn } from "../variants";
 import "../index.css";
 import {
@@ -28,7 +29,13 @@ import {
     SiWix,
     SiMicrosoftword,
     SiMicrosoftexcel,
+    SiTailwindcss,
+    SiFramer,
+    SiApache,
     SiMicrosoftpowerpoint,
+    SiPostman,
+    SiSublimetext,
+    SiPython,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -67,20 +74,40 @@ const Skills = () => {
                                     <div
                                         className="group relative overflow-hidden h-[10vh] w-[10vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="HTML5"
+                                        data-tooltip-id="html5Tooltip"
                                     >
                                         {/* Overlay */}
                                         <DiHtml5 size={60} color="#FF5722" />
                                     </div>
+                                    <Tooltip
+                                        id="html5Tooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        HTML5
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[10vh] w-[10vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="CSS3"
+                                        data-tooltip-id="css3Tooltip"
                                     >
                                         {/* Overlay */}
                                         <DiCss3 size={60} color="#167DBE" />
                                     </div>
+                                    <Tooltip
+                                        id="css3Tooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        CSS 3
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[10vh] w-[10vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="Bootstrap"
+                                        data-tooltip-id="bootstrapTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiBootstrap
@@ -88,51 +115,181 @@ const Skills = () => {
                                             color="#8712FB"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="bootstrapTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Bootstrap
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="JavaScript"
+                                        data-tooltip-id="javascriptTooltip"
                                     >
                                         {/* Overlay */}
-                                        <DiJsBadge size={60} color="#8712FB" />
+                                        <DiJsBadge size={50} color="#8712FB" />
                                     </div>
+                                    <Tooltip
+                                        id="javascriptTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        JavaScript
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="React"
+                                        data-tooltip-id="reactTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiReact size={60} color="#61DBFB" />
                                     </div>
+                                    <Tooltip
+                                        id="reactTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        React
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Redis"
+                                        data-tooltip-id="redisTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiRedis size={60} color="#D82C20" />
                                     </div>
+                                    <Tooltip
+                                        id="redisTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Redis
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Node.js"
+                                        data-tooltip-id="nodejsTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiNodejs size={60} color="#529F41" />
                                     </div>
+                                    <Tooltip
+                                        id="nodejsTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Node.js
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="PHP"
+                                        data-tooltip-id="phpTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiPhp size={60} color="#8993C0" />
                                     </div>
+                                    <Tooltip
+                                        id="phpTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        PHP
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Laravel"
+                                        data-tooltip-id="laravelTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiLaravel size={60} color="#FF291A" />
                                     </div>
+                                    <Tooltip
+                                        id="laravelTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Laravel
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[10vh] w-[10vh]
+                                    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="Framer Motion"
+                                        data-tooltip-id="framermotionTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiFramer size={45} color="#1E1E1E" />
+                                    </div>
+                                    <Tooltip
+                                        id="framermotionTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Framer Motion
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[10vh] w-[10vh]
+                                    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="Tailwind Css"
+                                        data-tooltip-id="tailwindcssTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiTailwindcss
+                                            size={45}
+                                            color="#38BDF8"
+                                        />
+                                    </div>
+                                    <Tooltip
+                                        id="tailwindcssTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Tailwind Css
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[10vh] w-[10vh]
+                                    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="Apache"
+                                        data-tooltip-id="apacheTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiApache size={45} color="#C4203A" />
+                                    </div>
+                                    <Tooltip
+                                        id="apacheTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Apache
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[10vh] w-[10vh]
+                                    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-white"
+                                        data-tooltip-content="Postman"
+                                        data-tooltip-id="postmanTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiPostman size={45} color="#F56933" />
+                                    </div>
+                                    <Tooltip
+                                        id="postmanTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Postman
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="WordPress"
+                                        data-tooltip-id="wordpressTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiWordpress
@@ -140,13 +297,45 @@ const Skills = () => {
                                             color="#00769D"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="wordpressTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        WordPress
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Wix"
+                                        data-tooltip-id="wixTooltip"
                                     >
                                         {/* Overlay */}
                                         <SiWix size={60} color="#000000" />
                                     </div>
+                                    <Tooltip
+                                        id="wixTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Wix
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
+                                    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Python"
+                                        data-tooltip-id="pythonTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiPython size={45} color="#F7CF45" />
+                                    </div>
+                                    <Tooltip
+                                        id="pythonTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Python
+                                    </Tooltip>
                                 </div>
                             </div>
                         </motion.div>
@@ -164,20 +353,40 @@ const Skills = () => {
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="MySQL"
+                                        data-tooltip-id="mysqlTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiMysql size={60} color="#01618A" />
                                     </div>
+                                    <Tooltip
+                                        id="mysqlTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        MySQL
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="MongoDB"
+                                        data-tooltip-id="mongodbTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiMongodb size={60} color="#13AA52" />
                                     </div>
+                                    <Tooltip
+                                        id="mongodbTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        MongoDB
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="PostgreSQL"
+                                        data-tooltip-id="postgresqlTooltip"
                                     >
                                         {/* Overlay */}
                                         <DiPostgresql
@@ -185,9 +394,18 @@ const Skills = () => {
                                             color="#336791"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="postgresqlTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        PostgreSQL
+                                    </Tooltip>
                                     <div
                                         className="group relative overflow-hidden h-[8vh] w-[8vh]
                                     mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Firebase"
+                                        data-tooltip-id="firebaseTooltip"
                                     >
                                         {/* Overlay */}
                                         <img
@@ -195,6 +413,13 @@ const Skills = () => {
                                             alt="Firebase"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="firebaseTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Firebase
+                                    </Tooltip>
                                 </div>
                             </motion.div>
 
@@ -212,35 +437,59 @@ const Skills = () => {
 
                                     <div className="flex flex-row flex-wrap justify-center">
                                         <div
-                                            className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            data-tooltip-content="Figma"
+                                            data-tooltip-id="figmaTooltip"
                                         >
                                             {/* Overlay */}
                                             <SiFigma
-                                                size={60}
+                                                size={45}
                                                 color="#000000"
                                             />
                                         </div>
+                                        <Tooltip
+                                            id="figmaTooltip"
+                                            place="bottom"
+                                            effect="solid"
+                                        >
+                                            Figma
+                                        </Tooltip>
                                         <div
-                                            className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            data-tooltip-content="Canva"
+                                            data-tooltip-id="canvaTooltip"
                                         >
                                             {/* Overlay */}
                                             <SiCanva
-                                                size={60}
+                                                size={45}
                                                 color="#4A4CF0"
                                             />
                                         </div>
+                                        <Tooltip
+                                            id="canvaTooltip"
+                                            place="bottom"
+                                            effect="solid"
+                                        >
+                                            Canva
+                                        </Tooltip>
                                         <div
-                                            className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                            data-tooltip-content="Blender"
+                                            data-tooltip-id="blenderTooltip"
                                         >
                                             {/* Overlay */}
                                             <SiBlender
-                                                size={60}
+                                                size={45}
                                                 color="#E98E43"
                                             />
                                         </div>
+                                        <Tooltip
+                                            id="blenderTooltip"
+                                            place="bottom"
+                                            effect="solid"
+                                        >
+                                            Blender
+                                        </Tooltip>
                                     </div>
                                 </div>
                             </motion.div>
@@ -258,29 +507,71 @@ const Skills = () => {
 
                                 <div className="flex flex-row flex-wrap justify-center">
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Git"
+                                        data-tooltip-id="gitTooltip"
                                     >
                                         {/* Overlay */}
-                                        <SiGit size={60} color="#F05033" />
+                                        <SiGit size={45} color="#F05033" />
                                     </div>
+                                    <Tooltip
+                                        id="gitTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Git
+                                    </Tooltip>
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="Sublime Text"
+                                        data-tooltip-id="sublimetextTooltip"
                                     >
                                         {/* Overlay */}
-                                        <SiGithub size={60} color="#000000" />
+                                        <SiSublimetext
+                                            size={45}
+                                            color="#F79202"
+                                        />
                                     </div>
+                                    <Tooltip
+                                        id="sublimetextTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        Sublime Text
+                                    </Tooltip>
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="GitHub"
+                                        data-tooltip-id="githubTooltip"
+                                    >
+                                        {/* Overlay */}
+                                        <SiGithub size={45} color="#000000" />
+                                    </div>
+                                    <Tooltip
+                                        id="githubTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        GitHub
+                                    </Tooltip>
+                                    <div
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="VS Code"
+                                        data-tooltip-id="vscodeTooltip"
                                     >
                                         {/* Overlay */}
                                         <SiVisualstudio
-                                            size={60}
+                                            size={45}
                                             color="#6E64C3"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="vscodeTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        VS Code
+                                    </Tooltip>
                                 </div>
                             </div>
 
@@ -291,35 +582,59 @@ const Skills = () => {
 
                                 <div className="flex flex-row flex-wrap justify-center">
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="MS Word"
+                                        data-tooltip-id="mswordTooltip"
                                     >
                                         {/* Overlay */}
                                         <SiMicrosoftword
-                                            size={60}
+                                            size={45}
                                             color="#1B65C3"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="mswordTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        MS Word
+                                    </Tooltip>
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="MS PowerPoint"
+                                        data-tooltip-id="mspowerpointTooltip"
                                     >
                                         {/* Overlay */}
                                         <SiMicrosoftpowerpoint
-                                            size={60}
+                                            size={45}
                                             color="#CA4A22"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="mspowerpointTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        MS PowerPoint
+                                    </Tooltip>
                                     <div
-                                        className="group relative overflow-hidden h-[8vh] w-[8vh]
-    mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        className="group relative overflow-hidden h-[8vh] w-[8vh] mx-3 my-3 flex justify-center items-center cursor-pointer hover:text-accent"
+                                        data-tooltip-content="MS Excel"
+                                        data-tooltip-id="msexcelTooltip"
                                     >
                                         {/* Overlay */}
                                         <SiMicrosoftexcel
-                                            size={60}
+                                            size={45}
                                             color="#0D8549"
                                         />
                                     </div>
+                                    <Tooltip
+                                        id="msexcelTooltip"
+                                        place="bottom"
+                                        effect="solid"
+                                    >
+                                        MS Excel
+                                    </Tooltip>
                                 </div>
                             </div>
                         </motion.div>

@@ -7,7 +7,7 @@ const Header = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
         link.href = assets.Resume;
-        link.download = "Dhriti_Shah_Resume.pdf";
+        link.download = "Dhriti_Kalpesh_Shah_Resume.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

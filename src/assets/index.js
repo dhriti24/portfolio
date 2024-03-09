@@ -5,12 +5,14 @@ import Profile from "./images/Profile.png";
 import Resume from "./files/Dhriti_Shah_Resume.pdf";
 import blob from "./images/blob.gif";
 import blob1 from "./images/blob.svg";
+import Dhriti from "./images/Dhriti.png";
 import Project1 from "./images/Project1.svg";
 import Project2 from "./images/Project2.svg";
 import Project3 from "./images/Project3.svg";
 import Project4 from "./images/Project4.svg";
 import Project5 from "./images/Project5.svg";
 import Project6 from "./images/Project6.svg";
+import Dhriti_Profile from "./images/Dhriti_Profile.png";
 
 const images = {
     Avatar,
@@ -26,6 +28,8 @@ const images = {
     Project4,
     Project5,
     Project6,
+    Dhriti,
+    Dhriti_Profile,
 };
 
 export default images;

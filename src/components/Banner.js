@@ -17,7 +17,7 @@ const Banner = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
         link.href = assets.Resume;
-        link.download = "Dhriti_Shah_Resume.pdf";
+        link.download = "Dhriti_Kalpesh_Shah_Resume.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -157,10 +157,10 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={"show"}
                             className="img-holder md:flex flex-1 max-w-[40vw]
-          md:mx-auto justify-center brightness-150 md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]"
+          md:mx-auto justify-center md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]"
                         >
                             <Image
-                                src={assets.Myimage}
+                                src={assets.Dhriti_Profile}
                                 alt="Dhriti Shah"
                                 className="profile-img max-w-[40vw]"
                                 fluid

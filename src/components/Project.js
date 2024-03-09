@@ -38,7 +38,7 @@ const Project = () => {
         {
             img: assets.Project3,
             name: "Portfolio",
-            github_link: "https://github.com/dhriti24/portfolio",
+            live_link: "https://dhritishah.me",
             categories: ["React", "Tailwindcss", "Framer Motion"],
         },
         {

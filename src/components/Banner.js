@@ -136,7 +136,7 @@ const Banner = () => {
                                     <FaGithub />
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/in/dhriti-shah-9ab0a41ab/"
+                                    href="https://www.linkedin.com/in/dhriti-shah24/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >

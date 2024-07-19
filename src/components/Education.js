@@ -114,7 +114,7 @@ const Education = () => {
                                     Experience
                                 </h2>
                                 <div className="education-box border-l-2 border-opacity-40 border-l-[#ff6766]">
-                                    {/* Education 1 */}
+                                    {/* Experience 1 */}
                                     <motion.div
                                         variants={fadeIn("right", 0.3)}
                                         initial="hidden"
@@ -132,19 +132,23 @@ const Education = () => {
                                                     color="#2ADBCD"
                                                     className="pr-[1rem]"
                                                 />
-                                                November 2021 - Febraury 2022
+                                                December 2021 - July 2022
                                             </div>
                                             <h4 className="h3 mb-0 text-xl font-semibold">
-                                                Developer
+                                                Full Stack Developer
                                             </h4>
-                                            <p>(Wix)</p>
+                                            <p>
+                                                (React, Firebase, Redis,
+                                                Material UI, Git, Github)
+                                            </p>
                                             <h4>
-                                                Friends of Health Homeopathy
+                                                Friends of Health - Homeopathy &
+                                                Nutrition Center
                                             </h4>
                                         </div>
                                     </motion.div>
 
-                                    {/* Education 2 */}
+                                    {/* Experience 2 */}
                                     <motion.div
                                         variants={fadeIn("right", 0.5)}
                                         initial="hidden"
@@ -172,6 +176,37 @@ const Education = () => {
                                                 WordPress)
                                             </p>
                                             <h4>i2e Consulting Pvt. Ltd.</h4>
+                                        </div>
+                                    </motion.div>
+
+                                    {/* Experience 3 */}
+                                    <motion.div
+                                        variants={fadeIn("right", 0.5)}
+                                        initial="hidden"
+                                        whileInView={"show"}
+                                        viewport={{
+                                            once: false,
+                                            amount: 0.3,
+                                        }}
+                                        className="education-content relative pl-[2rem] my-[1vh]"
+                                    >
+                                        <div className="content relative p-[1rem] bg-white shadow-slate-800 shadow-sm bg-opacity-50 rounded-lg mb-2 font-light">
+                                            <div className="year flex flex-row items-center text-md text-secondary font-tertiary">
+                                                <BiSolidCalendar
+                                                    size={50}
+                                                    color="#2ADBCD"
+                                                    className="pr-[1rem]"
+                                                />
+                                                March 2019 - February 2021
+                                            </div>
+                                            <h4 className="h3 mb-0 text-xl font-semibold">
+                                                Full Stack Web Developer
+                                            </h4>
+                                            <p>
+                                                (HTML, CSS, JavaScript, PHP,
+                                                MySQL)
+                                            </p>
+                                            <h4>CD Consultancy & Services</h4>
                                         </div>
                                     </motion.div>
                                 </div>

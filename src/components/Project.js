@@ -13,8 +13,6 @@ const Project = () => {
         {
             img: assets.Project1,
             name: "Mental Health Support Web App",
-            github_link:
-                "https://github.com/hppanpaliya/CS-545-Mental-Health-Support",
             categories: [
                 "React",
                 "Firebase",
@@ -26,7 +24,6 @@ const Project = () => {
         {
             img: assets.Project2,
             name: "Solar Project Management Tool",
-            github_link: "https://github.com/mehtasoham214/Solar_Management",
             categories: [
                 "ReactJS",
                 "ExpressJS",
@@ -38,27 +35,21 @@ const Project = () => {
         {
             img: assets.Project3,
             name: "Portfolio",
-            live_link: "https://dhritishah.me",
             categories: ["React", "Tailwindcss", "Framer Motion"],
         },
         {
             img: assets.Project4,
             name: "Job Portal",
-            github_link:
-                "https://github.com/dhriti24/Job-Portal-Laravel/tree/main/job_portal",
             categories: ["PHP", "Laravel", "Apache", "MySQL"],
         },
         {
             img: assets.Project5,
             name: "Friends of Health",
-            live_link: "https://www.friendsofhealth.in/",
-            categories: ["Wix"],
+            categories: ["React", "Firebase", "Redis", "Material UI"],
         },
         {
             img: assets.Project6,
             name: "Roommate Connect Forum",
-            github_link:
-                "https://github.com/divya21098/CS546_group17_final_project",
             categories: ["HTML", "CSS", "JavaScript", "NodeJS", "MongoDB"],
         },
     ];
@@ -73,7 +64,7 @@ const Project = () => {
                     className="text-center mb-5"
                 >
                     <h1 className="text-secondary text-5xl md:text-5xl font-primary">
-                        My Projects
+                        My Projects & Experiences
                     </h1>
                     <p className="text-sm">Exploring New Technologies</p>
                 </motion.div>
@@ -128,29 +119,6 @@ const Project = () => {
                                         )
                                     )}
                                 </div>
-                                {project_info.github_link && (
-                                    <a
-                                        href={project_info.github_link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <button className="btn btn-sm md:btn-md rounded-md mt-3">
-                                            View GitHub
-                                        </button>
-                                    </a>
-                                )}
-                                {project_info.live_link && (
-                                    <a
-                                        href={project_info.live_link}
-                                        target="_blank"
-                                        rel="noopener
-                                        noreferrer"
-                                    >
-                                        <button className="btn btn-sm md:btn-md rounded-md mt-3">
-                                            View Live
-                                        </button>
-                                    </a>
-                                )}
                             </div>
                         </SwiperSlide>
                     ))}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.736cd67a.css",
-    "main.js": "/static/js/main.68c7a250.js",
+    "main.js": "/static/js/main.e89ee72d.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Myimage.png": "/static/media/Myimage.771147e6febd49a99096.png",
     "static/media/Profile.png": "/static/media/Profile.d97278f5e4576cd9a6c6.png",
@@ -9,7 +9,7 @@
     "static/media/Dhriti_Profile.png": "/static/media/Dhriti_Profile.79bab7cadc247454d3e9.png",
     "static/media/blob.gif": "/static/media/blob.e2976bd653857c91cd10.gif",
     "static/media/Dhriti.png": "/static/media/Dhriti.191eb3951439de62064b.png",
-    "static/media/Dhriti_Kalpesh_Shah_Resume.pdf": "/static/media/Dhriti_Kalpesh_Shah_Resume.56c758fc1e0824b53c2f.pdf",
+    "static/media/Dhriti_Kalpesh_Shah_Resume.pdf": "/static/media/Dhriti_Kalpesh_Shah_Resume.2931a2f0d45030371d64.pdf",
     "static/media/Logo.png": "/static/media/Logo.63eadc6d8077d21fdd23.png",
     "static/media/Project6.svg": "/static/media/Project6.959d831769e5b443aa1d531c240b1e6a.svg",
     "static/media/Project5.svg": "/static/media/Project5.e16bd006ce3796fa8ac84a1a7d587d75.svg",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/blob.svg": "/static/media/blob.4a8aa5b716d05855534c3cb3adc4fb3b.svg",
     "main.736cd67a.css.map": "/static/css/main.736cd67a.css.map",
-    "main.68c7a250.js.map": "/static/js/main.68c7a250.js.map",
+    "main.e89ee72d.js.map": "/static/js/main.e89ee72d.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.736cd67a.css",
-    "static/js/main.68c7a250.js"
+    "static/js/main.e89ee72d.js"
   ]
 }

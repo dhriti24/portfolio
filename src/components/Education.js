@@ -132,15 +132,37 @@ const Education = () => {
                                                     color="#2ADBCD"
                                                     className="pr-[1rem]"
                                                 />
-                                                December 2021 - July 2022
+                                                February 2024 - November 2024
                                             </div>
                                             <h4 className="h3 mb-0 text-xl font-semibold">
                                                 Full Stack Developer
                                             </h4>
-                                            <p>
-                                                (React, Firebase, Redis,
-                                                Material UI, Git, Github)
-                                            </p>
+                                            <h4>Gate Gourmet</h4>
+                                        </div>
+                                    </motion.div>
+                                    {/* Experience 1 */}
+                                    <motion.div
+                                        variants={fadeIn("right", 0.3)}
+                                        initial="hidden"
+                                        whileInView={"show"}
+                                        viewport={{
+                                            once: false,
+                                            amount: 0.3,
+                                        }}
+                                        className="education-content relative pl-[2rem] my-[1vh]"
+                                    >
+                                        <div className="content relative p-[1rem] bg-white shadow-slate-800 shadow-sm bg-opacity-50 rounded-lg mb-2 font-light">
+                                            <div className="year flex flex-row items-center text-md text-secondary font-tertiary">
+                                                <BiSolidCalendar
+                                                    size={50}
+                                                    color="#2ADBCD"
+                                                    className="pr-[1rem]"
+                                                />
+                                                December 2021 - July 2023
+                                            </div>
+                                            <h4 className="h3 mb-0 text-xl font-semibold">
+                                                Full Stack Developer
+                                            </h4>
                                             <h4>
                                                 Friends of Health - Homeopathy &
                                                 Nutrition Center
@@ -171,10 +193,6 @@ const Education = () => {
                                             <h4 className="h3 mb-0 text-xl font-semibold">
                                                 Web Developer Intern
                                             </h4>
-                                            <p>
-                                                (React, PHP, MySQL, Apache,
-                                                WordPress)
-                                            </p>
                                             <h4>i2e Consulting Pvt. Ltd.</h4>
                                         </div>
                                     </motion.div>
@@ -202,10 +220,6 @@ const Education = () => {
                                             <h4 className="h3 mb-0 text-xl font-semibold">
                                                 Full Stack Web Developer
                                             </h4>
-                                            <p>
-                                                (HTML, CSS, JavaScript, PHP,
-                                                MySQL)
-                                            </p>
                                             <h4>CD Consultancy & Services</h4>
                                         </div>
                                     </motion.div>

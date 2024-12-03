@@ -76,11 +76,11 @@ const About = () => {
                                     {inView ? (
                                         <Countup
                                             start={0}
-                                            end={40}
+                                            end={60}
                                             duration={3}
                                         />
                                     ) : (
-                                        40
+                                        60
                                     )}
                                     +
                                 </div>
@@ -94,11 +94,11 @@ const About = () => {
                                     {inView ? (
                                         <Countup
                                             start={0}
-                                            end={6}
+                                            end={10}
                                             duration={6}
                                         />
                                     ) : (
-                                        6
+                                        10
                                     )}
                                     +
                                 </div>
